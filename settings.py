@@ -17,6 +17,11 @@ STATICFILES_DIRS = (
     os.path.join(pyconzadir, 'static'),
 )
 
+TEMPLATE_DIRS = (
+    os.path.join(pyconzadir, 'templates'),
+) + TEMPLATE_DIRS
+
+
 WAFER_MENUS += (
     {"name": "sponsors", "label": _("Sponsors"),
      "items": [

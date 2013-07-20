@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 90px; /* this needs to be bigger than footer height */
+}
+
+.footer {
+  background: #ddd;
+  margin-top: -82px; /* negative value of footer height */
+  height: 50px;
+  clear: both;
+  padding: 16px;
+  text-align: center;
+}
