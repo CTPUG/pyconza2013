@@ -8,7 +8,7 @@ except ImportError:
     pass
 
 from django.utils.translation import ugettext_lazy as _
-from django.core.urlresolvers import reverse
+from django.core.urlresolvers import reverse_lazy
 
 pyconzadir = os.path.dirname(__file__)
 
@@ -26,12 +26,12 @@ WAFER_MENUS += (
     {"name": "sponsors", "label": _("Sponsors"),
      "items": [
          {"name": "sponsors", "label": _("Our sponsors"),
-          "url": reverse("wafer_sponsors")},
+          "url": reverse_lazy("wafer_sponsors")},
          {"name": "packages", "label": _("Sponsorship packages"),
-          "url": reverse("wafer_sponsorship_packages")},
+          "url": reverse_lazy("wafer_sponsorship_packages")},
      ]},
     {"name": "talks", "label": _("Talks"),
-     "url": reverse("wafer_users_talks")},
+     "url": reverse_lazy("wafer_users_talks")},
     {"name": "contact", "label": _("Contact"),
-     "url": reverse("wafer_page", args=('contact',))},
+     "url": reverse_lazy("wafer_page", args=('contact',))},
 )
