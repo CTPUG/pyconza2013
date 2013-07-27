@@ -10,6 +10,7 @@
 </head>
 <body>
     {% include "wafer/nav.html" %}
+    <div class="clouds_top"></div>
     <div id="wrap">
         <div id="main" class="container">
 {% block content %}
@@ -17,7 +18,10 @@
 {% endblock %}
         </div>
     </div>
-    <div class="footer">
+    <div class="clouds_container">
+      <div class="clouds_bottom"></div>
+    </div>
+    <div id="footer">
         Copyright &copy; 2013, PyCon ZA.<br />
         <a href="https://github.com/CTPUG/pyconza2013">Pull requests</a> welcome.
     </div>
