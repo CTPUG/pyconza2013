@@ -10,7 +10,8 @@ html, body {
 }
 
 #main {
-  padding-bottom: 699px; /* this needs to be bigger than max(footer height, clouds_bottom.png height) */
+  /* this padding needs to be big enough to avoid clouds_bottom.png covering text. */
+  padding-bottom: 399px;
   color: white;
 }
 
