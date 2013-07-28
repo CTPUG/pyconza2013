@@ -1,18 +1,16 @@
 html, body {
-  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
   /* put the background behind the clouds -- see CLOUDS further down */
   background: url('../img/clouds_bottom.png'), url('../img/clouds_top.png'), url('../img/pattern.jpg'), #fff;
   background-repeat: no-repeat, no-repeat, repeat, repeat;
   background-position: bottom center, top center, 0 0, 0 0;
 }
 
-#wrap {
-  min-height: 100%;
-}
-
 #main {
-  overflow: auto;
-  padding-bottom: 90px; /* this needs to be bigger than footer height */
+  padding-bottom: 699px; /* this needs to be bigger than max(footer height, clouds_bottom.png height) */
   color: white;
 }
 
@@ -23,7 +21,7 @@ html, body {
 }
 
 #footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background: #000;
   color: white;
