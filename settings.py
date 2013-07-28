@@ -23,6 +23,8 @@ TEMPLATE_DIRS = (
 
 
 WAFER_MENUS += (
+    {"name": "about", "label": _("About"),
+     "items": []},
     {"name": "sponsors", "label": _("Sponsors"),
      "items": [
          {"name": "sponsors", "label": _("Our sponsors"),
