@@ -25,6 +25,8 @@ TEMPLATE_DIRS = (
 WAFER_MENUS += (
     {"menu": "about", "label": _("About"),
      "items": []},
+    {"menu": "venue", "label": _("Venue"),
+     "items": []},
     {"menu": "sponsors", "label": _("Sponsors"),
      "items": [
          {"name": "sponsors", "label": _("Our sponsors"),
@@ -36,4 +38,9 @@ WAFER_MENUS += (
      "url": reverse_lazy("wafer_users_talks")},
     {"name": "contact", "label": _("Contact"),
      "url": reverse_lazy("wafer_page", args=('contact',))},
+    {"menu": "previous-pycons", "label": _("Past PyConZAs"),
+     "items": [
+         {"name": "pyconza2012", "label": _("PyConZA 2012"),
+          "url": "/2012/"},
+     ]},
 )
