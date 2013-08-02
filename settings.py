@@ -34,8 +34,11 @@ WAFER_MENUS += (
          {"name": "packages", "label": _("Sponsorship packages"),
           "url": reverse_lazy("wafer_sponsorship_packages")},
      ]},
-    {"name": "talks", "label": _("Talks"),
-     "url": reverse_lazy("wafer_users_talks")},
+    {"menu": "talks", "label": _("Talks"),
+     "items": [
+         {"name": "accepted-talks", "label": _("Accepted Talks"),
+          "url": reverse_lazy("wafer_users_talks")},
+     ]},
     {"name": "contact", "label": _("Contact"),
      "url": reverse_lazy("wafer_page", args=('contact',))},
     {"menu": "previous-pycons", "label": _("Past PyConZAs"),
