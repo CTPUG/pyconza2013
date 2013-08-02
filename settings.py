@@ -44,6 +44,6 @@ WAFER_MENUS += (
     {"menu": "previous-pycons", "label": _("Past PyConZAs"),
      "items": [
          {"name": "pyconza2012", "label": _("PyConZA 2012"),
-          "url": "/2012/"},
+          "url": "http://za.pycon.org/2012/"},
      ]},
 )
