@@ -46,4 +46,7 @@ WAFER_MENUS += (
          {"name": "pyconza2012", "label": _("PyConZA 2012"),
           "url": "http://za.pycon.org/2012/"},
      ]},
+    {"name": "twitter", "label": "Twitter",
+     "image": "/static/img/twitter.png",
+     "url": "https://twitter.com/pyconza"},
 )
