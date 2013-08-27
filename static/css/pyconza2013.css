@@ -10,8 +10,6 @@ html, body {
 }
 
 #main {
-  /* this padding needs to be big enough to avoid clouds_bottom.png covering text. */
-  padding-bottom: 399px;
   color: white;
 }
 
@@ -23,6 +21,42 @@ html, body {
 
 #main .well {
   color: black;
+}
+
+#logos {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#logos img {
+  padding: 10px 20px;
+}
+
+#legal {
+  text-align: center;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 30px;
+  color: #eadc35;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+#credits {
+  text-align: center;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 36px;
+  padding-bottom: 20px;
+}
+
+#logo_bottom {
+  /* this padding needs to be big enough to avoid clouds_bottom.png covering text. */
+  padding-bottom: 199px;
+  text-align: center;
 }
 
 #footer {
