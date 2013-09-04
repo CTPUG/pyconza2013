@@ -13,6 +13,10 @@ html, body {
   color: white;
 }
 
+#main .popover-contents {
+  color: black;
+}
+
 #main .form-actions {
   background: inherit;
   border: none;
