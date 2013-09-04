@@ -13,7 +13,7 @@ html, body {
   color: white;
 }
 
-#main .popover-contents {
+#main .popover-content, #main .popover-title {
   color: black;
 }
 
