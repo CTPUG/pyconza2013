@@ -1,23 +1,61 @@
-html, body { }
+html, body {
+}
 
-#wrap { min-height: 100%;
+#wrap {
+  min-height: 100%;
   /* put the background behind the clouds -- see CLOUDS further down */
   background: url('../img/clouds_bottom.png'), url('../img/clouds_top.png'), url('../img/pattern.jpg'), #fff;
   background-repeat: no-repeat, no-repeat, repeat, repeat;
   background-position: bottom center, top center, 0 0, 0 0;
 }
 
-#main { color: white; }
-#main .popover-content, #main .popover-title { color: black; }
-#main .form-actions { background: inherit; border: none; padding: 0px; }
-#main .well { color: black; }
+#main {
+  color: white;
+}
 
-#logos { margin: 0 auto; text-align: center; padding-top: 20px; padding-bottom: 20px; }
-#logos img { padding: 10px 20px; }
+#main .popover-content, #main .popover-title {
+  color: black;
+}
 
-#legal { text-align: center; font-family: 'Londrina Solid', cursive; font-size: 30px; color: #eadc35; text-transform: uppercase; padding-bottom: 20px; }
+#main .form-actions {
+  background: inherit;
+  border: none;
+  padding: 0px;
+}
 
-#credits { text-align: center; font-family: 'Londrina Solid', cursive; font-size: 20px; color: white; text-transform: uppercase; line-height: 36px; padding-bottom: 20px; }
+#main .well {
+  color: black;
+}
+
+#logos {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#logos img {
+  padding: 10px 20px;
+}
+
+#legal {
+  text-align: center;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 30px;
+  color: #eadc35;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+#credits {
+  text-align: center;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 36px;
+  padding-bottom: 20px;
+}
 
 #logo_bottom {
   /* this padding needs to be big enough to avoid clouds_bottom.png covering text. */
@@ -25,14 +63,31 @@ html, body { }
   text-align: center;
 }
 
-#footer { position: fixed; bottom: 0; background: #000; color: white; width: 100%; clear: both; padding: 10px 0px; text-align: center; }
+#footer {
+  position: fixed;
+  bottom: 0;
+  background: #000;
+  color: white;
+  width: 100%;
+  clear: both;
+  padding: 10px 0px;
+  text-align: center;
+}
 
-.wafer.list div:nth-child(2n) { background: rgba(0, 0, 0, 0.1); padding: 10px; }
+.wafer.list div:nth-child(2n) {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
 
-.wafer.list div:nth-child(2n + 1) { background: rgba(255, 255, 255, 0.1); padding: 10px; }
+.wafer.list div:nth-child(2n + 1) {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+}
 
 /* fix icons on top nav bar */
-ul.nav li.icon a { padding: 6px; }
+ul.nav li.icon a {
+  padding: 6px;
+}
 
 a { color: #33cc99; }
 a:hover, a:focus { color: #33cc99; }
@@ -54,7 +109,7 @@ a:hover, a:focus { color: #33cc99; }
     .light { color: #ccc; }
     .up { text-transform: uppercase; }
     .upsize { font-size: 20px; }
-    
+
     /* NAV */
     .navbar-inverse .brand, .navbar-inverse .nav > li > a { color: #fff; text-transform: uppercase; font-size: 18px; font-family: 'Oswald',sans-serif; }
     .navbar-inverse .brand:hover, .navbar-inverse .nav > li > a:hover, .navbar-inverse .brand:focus, .navbar-inverse .nav > li > a:focus { color: #E7D935; }
@@ -69,7 +124,7 @@ a:hover, a:focus { color: #33cc99; }
         div.anythingSlider { width: 920px; height: 342px; float: left; padding: 15px 10px 13px 10px; margin: -1px 0 0 0; background: url('../img/bg_promo.png') no-repeat; position: relative; }
         /* colors */
         div.anythingSlider.activeSlider .thumbNav a.cur { background: url('../img/dots.png') top no-repeat; }
-        /* anythingSlider viewport window */ 
+        /* anythingSlider viewport window */
         div.anythingSlider .anythingWindow { width: 100%; height: 100%; overflow: hidden; position: relative; }
         /* wrapper: 45px right & left padding for the arrows, 28px @ bottom for navigation */
         div.anythingSlider { position: relative; float: right; }
@@ -104,12 +159,12 @@ a:hover, a:focus { color: #33cc99; }
         div.anythingSlider.rtl .anythingWindow { direction: ltr; unicode-bidi: bidi-override; }
         /* Autoplay Start/Stop button */
         div.anythingSlider .start-stop { display: none; }
-        div.anythingSlider, 
-        div.anythingSlider .anythingWindow, 
-        div.anythingSlider .thumbNav a, 
-        div.anythingSlider .arrow a, 
+        div.anythingSlider,
+        div.anythingSlider .anythingWindow,
+        div.anythingSlider .thumbNav a,
+        div.anythingSlider .arrow a,
         div.anythingSlider .start-stop { transition-duration: 0; -o-transition-duration: 0; -moz-transition-duration: 0; -webkit-transition-duration: 0; }
-        
+
     /* MAIN */
     .main { width: 940px; float: left; z-index: 3; }
         .main h1 { margin: 0; padding: 0 24px; line-height: 47px; background: #1a1f29; font-family: 'Londrina Solid', cursive; font-size: 30px; font-weight: normal; color: #e7d935; text-transform: uppercase; }
@@ -139,8 +194,8 @@ a:hover, a:focus { color: #33cc99; }
         .logos { margin: 0 auto; padding: 0 0 40px 0; display: block; text-align: center; }
             .logos img { padding: 10px 20px; }
         .body h1 { margin: 10px 0 0; padding: 0 24px; line-height: 47px; background: #1a1f29; font-family: 'Londrina Solid', cursive; font-size: 30px; font-weight: normal; color: #e7d935; text-transform: uppercase; }
-        .wafer.list h2 { color: #33cc99; } 
-        
+        .wafer.list h2 { color: #33cc99; }
+
     /* TABLE */
     table { width: 100%; }
         table tr { border-bottom: 2px solid #fff; }
@@ -149,7 +204,3 @@ a:hover, a:focus { color: #33cc99; }
         table td.title { background: #33cc99; font-family: 'Oswald', sans-serif; font-size: 16px; color: #1a1f29; text-transform: uppercase; line-height: 26px; }
         table th { background: #e6d935; color: #181f29; font-weight: normal; vertical-align: top; }
         table th span { font-family: 'Oswald', sans-serif; font-size: 16px; font-weight: bold; color: #1a1f29; text-transform: uppercase; line-height: 26px; }
-        
-        
-        
-        
