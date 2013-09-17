@@ -37,11 +37,30 @@ ul.nav li.icon a { padding: 6px; }
 a { color: #33cc99; }
 a:hover, a:focus { color: #33cc99; }
 
+    /* HELPERS */
+    .margin_top_20 { margin-top: 20px; }
+    .no_marg_top { margin-top: 0!important; }
+    .padding_bottom_20px { padding-bottom: 20px!important; }
+    .padding_bottom_40px { padding-bottom: 40px!important; }
+    .align_left { float: left!important; }
+    .align_right { float: right!important; }
+    .text_left { text-align: left; }
+    .text_right { text-align: right; }
+    .text_center { text-align: center; }
+    .no_pad { padding: 0!important; }
+    .clear { width: 97%; height: 1px; clear: both; }
+    .fatlink { font-weight: bold; color: #0099cc!important; text-decoration: none; }
+    .blue { color: #1a1f29; }
+    .light { color: #ccc; }
+    .up { text-transform: uppercase; }
+    .upsize { font-size: 20px; }
+    
     /* NAV */
     .navbar-inverse .brand, .navbar-inverse .nav > li > a { color: #fff; text-transform: uppercase; font-size: 18px; font-family: 'Oswald',sans-serif; }
     .navbar-inverse .brand:hover, .navbar-inverse .nav > li > a:hover, .navbar-inverse .brand:focus, .navbar-inverse .nav > li > a:focus { color: #E7D935; }
     .navbar .nav > li > a { padding: 10px 13px; }
     .navbar .brand { padding: 10px 15px; }
+    .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret { display: none; }
 
     /* PROMO */
     .promo { z-index: 200; position: relative; }
@@ -58,10 +77,10 @@ a:hover, a:focus { color: #33cc99; }
         ul.anythingBase { background: transparent; list-style: none; position: absolute; top: 0; left: 0; margin: 0; padding: 0; }
         ul.anythingBase li { background: transparent; display: block; float: left; padding: 0; margin: 0; position: relative; }
         ul.anythingBase li img { position: absolute; top: 0; left: 0; z-index: 1; }
-        ul.anythingBase li div { width: 520px; padding: 34px 0 0 360px; position: relative; z-index: 2; }
-        ul.anythingBase li div h1 { background: transparent; padding: 0; margin: 0; font-family: 'Londrina Solid', cursive; font-size: 60px; font-weight: normal; color: #33cc99; text-transform: uppercase; line-height: 60px; }
-        ul.anythingBase li div h2 { margin: 10px 0; font-family: 'Oswald', sans-serif; font-size: 20px; font-weight: normal; color: #fff; text-transform: uppercase; line-height: 28px; }
-        ul.anythingBase li div .btn_promo_about { width: 174px; height: 28px; padding: 2px 0 5px 10px; display: inline-block; background: url('../img/btn_promo_about.png') no-repeat; font-family: 'Londrina Solid', cursive; font-size: 26px; font-weight: normal; color: #1a1f29; text-transform: uppercase; text-decoration: none; }
+        ul.anythingBase li div { width: 520px; padding: 34px 0 0 450px; position: relative; z-index: 2; }
+        ul.anythingBase li div h1 { background: transparent!important; padding: 0!important; margin: 0 0 10px!important; font-family: 'Londrina Solid', cursive!important; font-size: 48px!important; font-weight: normal!important; color: #33cc99!important; text-transform: uppercase!important; line-height: 50px!important; }
+        ul.anythingBase li div h2 { margin: 0 0 10px!important; font-family: 'Oswald', sans-serif!important; font-size: 20px!important; font-weight: normal!important; color: #fff!important; text-transform: uppercase!important; line-height: 28px!important; }
+        ul.anythingBase li div .btn_promo_about { width: 174px; height: 28px; padding: 8px 0 5px 10px; display: inline-block; background: url('../img/btn_promo_about.png') no-repeat; font-family: 'Londrina Solid', cursive; font-size: 26px; font-weight: normal; color: #1a1f29; text-transform: uppercase; text-decoration: none; }
         ul.anythingBase li div.promo_venue { width: 420px; padding: 34px 0 0 460px; position: relative; z-index: 2; }
         /* navigation arrows */
         div.anythingSlider .arrow { top: 38%; position: absolute; display: block; z-index: 2; }
@@ -94,6 +113,8 @@ a:hover, a:focus { color: #33cc99; }
     /* MAIN */
     .main { width: 940px; float: left; z-index: 3; }
         .main h1 { margin: 0; padding: 0 24px; line-height: 47px; background: #1a1f29; font-family: 'Londrina Solid', cursive; font-size: 30px; font-weight: normal; color: #e7d935; text-transform: uppercase; }
+        /* added styling on id to style the Sponsor h1 */
+        #main h1 { margin: 0; padding: 0 24px; line-height: 47px; background: #1a1f29; font-family: 'Londrina Solid', cursive; font-size: 30px; font-weight: normal; color: #e7d935; text-transform: uppercase; }
         .content { width: 700px; float: left; padding: 14px 0 0 0; position: relative; z-index: 5; background: url('../img/jagged_content_top.png') no-repeat; }
             .content .body { width: 680px; float: left; padding: 0 10px 10px 10px; background: #fff; }
             .content .inner { width: 632px; float: left; padding: 14px 24px 24px 24px; font-family: PT Sans, sans-serif; }
@@ -118,6 +139,7 @@ a:hover, a:focus { color: #33cc99; }
         .logos { margin: 0 auto; padding: 0 0 40px 0; display: block; text-align: center; }
             .logos img { padding: 10px 20px; }
         .body h1 { margin: 10px 0 0; padding: 0 24px; line-height: 47px; background: #1a1f29; font-family: 'Londrina Solid', cursive; font-size: 30px; font-weight: normal; color: #e7d935; text-transform: uppercase; }
+        .wafer.list h2 { color: #33cc99; } 
         
     /* TABLE */
     table { width: 100%; }
