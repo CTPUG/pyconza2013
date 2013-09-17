@@ -196,7 +196,7 @@ a:hover, a:focus { color: #33cc99; }
         .body h1 { margin: 10px 0 0; padding: 0 24px; line-height: 47px; background: #1a1f29; font-family: 'Londrina Solid', cursive; font-size: 30px; font-weight: normal; color: #e7d935; text-transform: uppercase; }
         .wafer.list h2 { color: #33cc99; }
 
-    /* TABLE */
+    /* REGISTRATION TABLE */
     table { width: 100%; }
         table tr { border-bottom: 2px solid #fff; }
         table th,
