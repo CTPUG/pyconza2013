@@ -121,7 +121,7 @@ a:hover, a:focus { color: #33cc99; }
     .promo { z-index: 200; position: relative; }
         .promo img { display: block; }
         /* set default dimensions */
-        div.anythingSlider { width: 920px; height: 342px; float: left; padding: 15px 10px 13px 10px; margin: -1px 0 0 0; background: url('../img/bg_promo.png') no-repeat; position: relative; }
+        div.anythingSlider { width: 920px!important; height: 342px!important; float: left; padding: 15px 10px 13px 10px; margin: -1px 0 0 0; background: url('../img/bg_promo.png') no-repeat; position: relative; }
         /* colors */
         div.anythingSlider.activeSlider .thumbNav a.cur { background: url('../img/dots.png') top no-repeat; }
         /* anythingSlider viewport window */
