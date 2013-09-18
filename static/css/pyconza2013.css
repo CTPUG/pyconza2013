@@ -94,6 +94,21 @@ ul.nav li.icon a {
   padding: 6px;
 }
 
+ /* override buttons */
+ .btn-primary {
+    background-color: #33cc99;
+    background-image: linear-gradient(to bottom, #33cc99, #33cc99);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+    background-color: #33cc99;
+    color: #FFFFFF;
+}
+
 a { color: #33cc99; }
 a:hover, a:focus { color: #33cc99; }
 
@@ -195,7 +210,7 @@ a:hover, a:focus { color: #33cc99; }
             .wide .grid { width: 872px; float: left; }
             .wide .grid .block { width: 270px; float: left; margin: 0 31px 10px 0; }
             .wide .grid .block:nth-child(3n) { margin-right: 0; }
-            .wide .btn { float: left; padding: 9px 38px 9px 12px; background: #3fafd7 url('../img/arrow_blue.png') right center no-repeat; border: 0; font-family: 'Londrina Solid', cursive; font-size: 24px; color: #fff; text-transform: uppercase; text-decoration: none; }
+            /*.wide .btn { float: left; padding: 9px 38px 9px 12px; background: #3fafd7 url('../img/arrow_blue.png') right center no-repeat; border: 0; font-family: 'Londrina Solid', cursive; font-size: 24px; color: #fff; text-transform: uppercase; text-decoration: none; }*/
         .logos { margin: 0 auto; padding: 0 0 40px 0; display: block; text-align: center; }
             .logos img { padding: 10px 20px; }
         .body h1 { margin: 10px 0 0; padding: 0 24px; line-height: 47px; background: #1a1f29; font-family: 'Londrina Solid', cursive; font-size: 30px; font-weight: normal; color: #e7d935; text-transform: uppercase; }
@@ -216,6 +231,8 @@ a:hover, a:focus { color: #33cc99; }
     .container-fluid .row-fluid h2 { margin: 0 0 10px; padding: 0 24px; color: #E7D935; font-family: 'Londrina Solid',cursive; font-size: 30px; font-weight: normal; line-height: 47px; text-transform: uppercase; background: none repeat scroll 0 0 #1A1F29; }
     .container-fluid .row-fluid .span6 p { margin: 10px 0; } 
     form { margin: 0 0 20px; padding: 10px; color: #666; background: #fff; }
+    
+
     
     
     
