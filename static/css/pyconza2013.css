@@ -1,6 +1,10 @@
 html, body {
 }
 
+body { 
+	font-size: 16px; 
+}
+
 #wrap {
   min-height: 100%;
   /* put the background behind the clouds -- see CLOUDS further down */
@@ -72,6 +76,7 @@ html, body {
   clear: both;
   padding: 10px 0px;
   text-align: center;
+  z-index: 100;
 }
 
 .wafer.list div:nth-child(2n) {
@@ -204,3 +209,15 @@ a:hover, a:focus { color: #33cc99; }
         table td.title { background: #33cc99; font-family: 'Oswald', sans-serif; font-size: 16px; color: #1a1f29; text-transform: uppercase; line-height: 26px; }
         table th { background: #e6d935; color: #181f29; font-weight: normal; vertical-align: top; }
         table th span { font-family: 'Oswald', sans-serif; font-size: 16px; font-weight: bold; color: #1a1f29; text-transform: uppercase; line-height: 26px; }
+        
+    /* REGISTRATION PAGES */
+    .container-fluid { padding-top: 14px; padding-right: 0; padding-left: 0; color: #666666; background: url("../img/jagged_wide_top.png") no-repeat; }
+    .row-fluid { width: 920px; padding: 0 10px 10px; background: #fff; }
+    .container-fluid .row-fluid h2 { margin: 0 0 10px; padding: 0 24px; color: #E7D935; font-family: 'Londrina Solid',cursive; font-size: 30px; font-weight: normal; line-height: 47px; text-transform: uppercase; background: none repeat scroll 0 0 #1A1F29; }
+    .container-fluid .row-fluid .span6 p { margin: 10px 0; } 
+    form { margin: 0 0 20px; padding: 10px; color: #666; background: #fff; }
+    
+    
+    
+    
+    
