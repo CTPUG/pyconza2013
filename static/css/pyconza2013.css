@@ -178,7 +178,7 @@ a:hover, a:focus { color: #33cc99; }
         div.anythingSlider.rtl .thumbNav { float: left; }    /* move nav link group to left */
         div.anythingSlider.rtl .anythingWindow { direction: ltr; unicode-bidi: bidi-override; }
         /* Autoplay Start/Stop button */
-        div.anythingSlider .start-stop { display: none; }
+        div.anythingSlider .start-stop { display: none!important; }
         div.anythingSlider,
         div.anythingSlider .anythingWindow,
         div.anythingSlider .thumbNav a,
