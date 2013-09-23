@@ -187,9 +187,10 @@ a:hover, a:focus { color: #33cc99; }
 
     /* MAIN */
     .main { width: 940px; float: left; z-index: 3; }
-        .main h1 { margin: 0; padding: 0 24px; line-height: 47px; background: #1a1f29; font-family: 'Londrina Solid', cursive; font-size: 30px; font-weight: normal; color: #e7d935; text-transform: uppercase; }
+        .main .inner h1 { margin: 0; padding: 0 24px; line-height: 47px; background: #1a1f29; font-family: 'Londrina Solid', cursive; font-size: 30px; font-weight: normal; color: #e7d935; text-transform: uppercase; }
         /* added styling on id to style the Sponsor h1 */
-        #main h1 { margin: 0; padding: 0 24px; line-height: 47px; background: #1a1f29; font-family: 'Londrina Solid', cursive; font-size: 30px; font-weight: normal; color: #e7d935; text-transform: uppercase; }
+        #main .inner h1 { margin: 0; padding: 0 24px; line-height: 47px; background: #1a1f29; font-family: 'Londrina Solid', cursive; font-size: 30px; font-weight: normal; color: #e7d935; text-transform: uppercase; }
+        #main h1 { margin: 0.5em 0; padding: 0 12px; line-height: 47px; background: #1a1f29; font-family: 'Londrina Solid', cursive; font-size: 30px; font-weight: normal; color: #e7d935; text-transform: uppercase; }
         .content { width: 700px; float: left; padding: 14px 0 0 0; position: relative; z-index: 5; background: url('../img/jagged_content_top.png') no-repeat; }
             .content .body { width: 680px; float: left; padding: 0 10px 10px 10px; background: #fff; }
             .content .inner { width: 632px; float: left; padding: 14px 24px 24px 24px; font-family: PT Sans, sans-serif; }
