@@ -89,6 +89,10 @@ body {
   padding: 10px;
 }
 
+.wafer.speakers {
+  padding-bottom: 1em;
+}
+
 /* fix icons on top nav bar */
 ul.nav li.icon a {
   padding: 6px;

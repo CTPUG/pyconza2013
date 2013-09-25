@@ -9,7 +9,7 @@
 		{% endif %}
 		<h1>{{ object.title }}</h1>
 		<div class="inner">
-			<div>
+			<div class="wafer.speakers">
 			    {% blocktrans count counter=object.authors.count %}
 			    Speaker:
 			    {% plural %}
@@ -34,6 +34,9 @@
 			<div class="well">
 			    {{ object.abstract_html|safe }}
 			</div>
+            <div>
+              Return to <a href="/talks/schedule">schedule</a>.
+            </div>
 		</div>
 	</div>
 </div>
