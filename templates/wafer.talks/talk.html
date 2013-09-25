@@ -16,6 +16,11 @@
 			    Speakers:
 			    {% endblocktrans %}
 			    {% for author in object.authors.all %}
+			    {% if not forloop.last and not forloop.first %}
+			    ,
+			    {% elif not forloop.first %}
+			    &amp;
+			    {% endif %}
 			    <a href="{{ author.get_absolute_url }}">{{ author.get_full_name|default:author.username }}</a>
 			    {% endfor %}
 			</div>
