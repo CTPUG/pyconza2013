@@ -52,3 +52,9 @@ WAFER_MENUS += (
      "image": "/static/img/twitter.png",
      "url": "https://twitter.com/pyconza"},
 )
+
+INSTALLED_APPS = (
+    'disqus',
+) + INSTALLED_APPS
+
+DISQUS_WEBSITE_SHORTNAME = "pyconza"

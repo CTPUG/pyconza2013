@@ -1,3 +1,4 @@
+{% load disqus_tags %}
 {% extends "wafer/base.html" %}
 {% block content %}
 <div class="content wide">
@@ -43,6 +44,7 @@
               Return to <a href="/talks/schedule">schedule</a>.
             </div>
 		</div>
+        {% disqus_show_comments %}
 	</div>
 </div>
 {% endblock %}
