@@ -27,6 +27,8 @@ WAFER_MENUS += (
      "items": []},
     {"menu": "sponsors", "label": _("Sponsors"),
      "items": [
+         {"name": "praekelt", "label": _(u"» Praekelt ★"),
+          "url": reverse_lazy("wafer_sponsor", args=(5,))},
          {"name": "sponsors", "label": _("Our sponsors"),
           "url": reverse_lazy("wafer_sponsors")},
          {"name": "packages", "label": _("Sponsorship packages"),
