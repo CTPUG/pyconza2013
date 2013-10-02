@@ -48,8 +48,6 @@ WAFER_MENUS += (
           "url": reverse_lazy("wafer_sponsor", args=(9,))},
          {"name": "voss", "label": _(u"» VOSS"),
           "url": reverse_lazy("wafer_sponsor", args=(8,))},
-         {"name": "asmicom", "label": _(u"» Asmic Computers"),
-          "url": reverse_lazy("wafer_page", args=("news/talk-recordings",))},
          {"name": "sponsors", "label": _("Our sponsors"),
           "url": reverse_lazy("wafer_sponsors")},
          {"name": "packages", "label": _("Sponsorship packages"),
