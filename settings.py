@@ -79,3 +79,5 @@ INSTALLED_APPS = (
 ) + INSTALLED_APPS
 
 DISQUS_WEBSITE_SHORTNAME = "pyconza"
+
+MARKITUP_FILTER = ('markdown.markdown', {'safe_mode': False})
